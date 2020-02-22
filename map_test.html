@@ -20,7 +20,8 @@ window.onload = function() {
 	var map = initMap('mapid')
 	map.setZoom(16)
 	map.panTo([ 26.214098,127.677487 ]) // 久茂地交差点
-	map.addIcon(26.223976,127.676943 , "若狭公園公衆トイレ", "icon/hanadojo.png", 64)
+	map.addIcon(26.223976,127.676943, "若狭公園公衆トイレ", "icon/hanadojo.png", 64)//若狭公園公衆トイレアイコン
+	map.addIcon(26.223976,127.676943, "若狭公園公衆トイレピン")//若狭公園公衆トイレピン
 
 	// SPARQLクエリー
 	var query = `
